@@ -1,0 +1,130 @@
+/* .warnings{
+    height: 100px;
+    width: 600px;
+    background-color: #000000d9;
+    position: fixed;
+    top: 30vh;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    animation-name: fadeOut;
+    animation-duration: 1.8s;
+    animation-iteration-count:3;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+} */
+.aside_in_out{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(85, 55, 155);
+    border-radius: 15px;
+    align-self: flex-start;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.botao_aside{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(35, 158, 35);
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botao_aside:hover{
+    border: 1px solid black;
+}
+.score{
+    height: 100px;
+    width: auto;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.circulo{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color:crimson;
+}
+aside{
+    height: 98vh;
+    width: 200px;
+    background-color: var(--background_color);
+    position: fixed;
+    right: 0;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.aside_main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column; 
+}
+header{
+    height: 100px;
+    width: 98vw;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+main{
+    height: 70vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: rgb(188, 224, 255);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background_color:black;
+}
